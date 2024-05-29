@@ -1,0 +1,9 @@
+---
+ - name: install packages
+   package:
+     name: 
+       - htop
+       - python3-pip
+     state: present 
+
+# tasks file for packages
