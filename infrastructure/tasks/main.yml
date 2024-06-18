@@ -8,7 +8,7 @@
 - name: Git chekout
   git:
     repo: "{{ git_repository }}"
-    dest: "{{ deploymnt_path }}"
+    dest: "{{ deployment_path }}"
     version: "{{ git_branch }}"
 
 - name: Run docker compose
